@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocAWsServelss", "PocAWsServelss\PocAWsServelss.csproj", "{785746C1-D293-4A49-8750-6D403B6683EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{42F41F7B-DA89-4CD6-8A2D-9D862742B51D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{3FAE514C-9CA3-4DFB-9A02-10EE1A166523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{5E47E27D-CEA1-42E5-82FE-1DAAF9B96E69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{623A852B-2836-4D06-8E7D-38A185792F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{307CA5F5-4CDA-449F-866A-31B7F484E9E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - CrossCutting", "5 - CrossCutting", "{4FCF0AD5-13EA-4B82-8B98-F8AE7DB1E8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting.Dependencies", "Bootstrapper\CrossCutting.Dependencies.csproj", "{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{785746C1-D293-4A49-8750-6D403B6683EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785746C1-D293-4A49-8750-6D403B6683EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785746C1-D293-4A49-8750-6D403B6683EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785746C1-D293-4A49-8750-6D403B6683EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F41F7B-DA89-4CD6-8A2D-9D862742B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F41F7B-DA89-4CD6-8A2D-9D862742B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F41F7B-DA89-4CD6-8A2D-9D862742B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F41F7B-DA89-4CD6-8A2D-9D862742B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{785746C1-D293-4A49-8750-6D403B6683EE} = {3FAE514C-9CA3-4DFB-9A02-10EE1A166523}
+		{42F41F7B-DA89-4CD6-8A2D-9D862742B51D} = {5E47E27D-CEA1-42E5-82FE-1DAAF9B96E69}
+		{A141A882-CA04-4D4A-81DF-3DE1CCDF43AA} = {4FCF0AD5-13EA-4B82-8B98-F8AE7DB1E8E8}
+		{5B0E4EEE-1D8D-474B-8A6C-173ADACC0239} = {623A852B-2836-4D06-8E7D-38A185792F9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE5D1FF-4054-4A42-A3AC-0BDF73D903BD}
+	EndGlobalSection
+EndGlobal
